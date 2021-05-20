@@ -1,0 +1,46 @@
+*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//body styling
+body{
+    margin-top: 1%;
+    font-size: 3vw;
+}
+@media  (max-width:"500px") {
+    body{
+        font-size: 8vw;
+    }
+    
+}
+@media  (max-width:"200px") {
+    body{
+        font-size: 4vw;
+    }
+    
+}
+
+//container styling
+.container{
+    border: 5px solid black;
+    //padding: 3%;
+}
+
+//answer styling
+#answer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 11%;
+    margin-bottom: 5%;
+}
+
+//number and operator styling
+.row{
+    .col{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+}
